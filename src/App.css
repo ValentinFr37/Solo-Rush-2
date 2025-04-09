@@ -80,6 +80,10 @@ div {
   transition: transform 0.3s ease;
 }
 
+#Game-list div{
+  text-align: center;
+}
+
 #Game-list div:hover {
   transform: translateY(-5px);
 }

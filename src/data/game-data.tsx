@@ -158,6 +158,94 @@ const Games =[
     "releaseDate": "2017-10-27",
     "genre": "Platformer",
     "image": "https://assets.nintendo.eu/image/upload/f_auto,c_limit,w_1920,q_auto:low/MNS/NOE/70010000000127/SQ_NSwitch_SuperMarioOdyssey_HomepageWithOverlay"
+  },
+  {
+    "id": 21,
+    "title": "Spider-Man: Miles Morales",
+    "platform": "PS4, PS5",
+    "releaseDate": "2020-11-12",
+    "genre": "Action-Adventure",
+    "image": "https://images.morele.net/i256/13272038_0_i256.jpg"
+  },
+  {
+    "id": 22,
+    "title": "The Elder Scrolls V: Skyrim",
+    "platform": "PC, PS3, PS4, Xbox 360, Xbox One, Switch",
+    "releaseDate": "2011-11-11",
+    "genre": "Role-Playing",
+    "image": "https://user-images.prod.xoul-media.com/cdn-cgi/image/width=256,quality=75,format=webp/https://user-images.prod.xoul-media.com/images/3384665a90be4d6c80b2af6ec8cc1cd0.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Death Stranding",
+    "platform": "PS4, PC",
+    "releaseDate": "2019-11-08",
+    "genre": "Action",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoJ7kTMWvUUwGzR2O7MPjKuOHtUMikifQOlA&s"
+  },
+  {
+    "id": 24,
+    "title": "Mortal Kombat 11",
+    "platform": "PC, PS4, Xbox One, Nintendo Switch",
+    "releaseDate": "2019-04-23",
+    "genre": "Fighting",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_g9VHJ9cH8Rev2oRAaefOPlMBzDYeWH4zMg&s"
+  },
+  {
+    "id": 25,
+    "title": "Doom Eternal",
+    "platform": "PC, PS4, Xbox One, Nintendo Switch",
+    "releaseDate": "2020-03-20",
+    "genre": "First-Person Shooter",
+    "image": "https://www.techpowerup.com/review/doom-eternal-benchmark-test-performance-analysis/images/small.png"
+  },
+  {
+    "id": 26,
+    "title": "Resident Evil Village",
+    "platform": "PC, PS4, PS5, Xbox One, Xbox Series X/S",
+    "releaseDate": "2021-05-07",
+    "genre": "Survival Horror",
+    "image": "https://gbaz.ir/ufile/editor/editor_eede1161-0aa1-4fe9-95be-0217f1258412.png"
+  },
+  {
+    "id": 27,
+    "title": "Star Wars Jedi: Fallen Order",
+    "platform": "PC, PS4, Xbox One",
+    "releaseDate": "2019-11-15",
+    "genre": "Action-Adventure",
+    "image": "https://images.steamusercontent.com/ugc/2024974632664536903/DE23820A97BE96508F056D99B288844CEEB1C9E8/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+  },
+  {
+    "id": 28,
+    "title": "Uncharted 4: A Thief's End",
+    "platform": "PS4",
+    "releaseDate": "2016-05-10",
+    "genre": "Action-Adventure",
+    "image": "https://cdn2.steamgriddb.com/icon/2a0f97f81755e2878b264adf39cba68e/32/256x256.png"
+  },
+  {
+    "id": 29,
+    "title": "Tetris Effect",
+    "platform": "PS4, PC, Xbox One",
+    "releaseDate": "2018-11-09",
+    "genre": "Puzzle",
+    "image": "https://www.speedrun.com/static/game/o1y9oov6/cover.png?v=afa0856"
+  },
+  {
+    "id": 30,
+    "title": "Apex Legends",
+    "platform": "PC, PS4, Xbox One, Switch",
+    "releaseDate": "2019-02-04",
+    "genre": "Battle Royale",
+    "image": "https://s.cafebazaar.ir/images/icons/com.ebookdev.apex-215cb388-198b-4dfe-890e-95eaa2489b31_512x512.png?x-img=v1/resize,h_256,w_256,lossless_false/optimize"
+  },
+  {
+    "id": 31,
+    "title": "Super Smash Bros. Ultimate",
+    "platform": "Nintendo Switch",
+    "releaseDate": "2018-12-07",
+    "genre": "Fighting",
+    "image": "https://amiibo.life/assets/games/eshop_icons/switch/super-smash-bros-ultimate-fdfb292ae971525aa6d65e626d269c2d70fe155df1c5e0b567f25bdfbe3a8028.png"
   }
 ]
 
