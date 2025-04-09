@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  min-height: 200vh;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100vw;
+}
+
+nav h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+nav input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 10px;
+}
+
+nav input:focus {
+  border-color: #61dafb;
+}
+
+
+#Game-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1;
+  overflow: auto;
+  width: 70%;
+}
+
+#Recommended {
+  padding: 20px;
+  background-color: #21121121;
+  margin-left: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  align-self: flex-start;
+}
+
+
+#Recommended h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+
+div {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+#Game-list div:hover {
+  transform: translateY(-5px);
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4fa3d1;
+}
+
+button:active {
+  background-color: #3a8cae;
+}
+
+button.liked {
+  background-color: #ff6b6b; /* 🔥 Rouge doux pour les likes */
+}
+
+button.liked:hover {
+  background-color: #e55353;
+}
+
+button.liked:active {
+  background-color: #c64444;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+#Game-list img{
+  width: 90%;
+  border-radius: 8%;
+}
+
+#Recommended img{
+  width: 70%;
+}
+
+
+#Main-container {
+  display: flex;
+  justify-content: center; 
+  padding: 20px;
+  position: relative;
+}
+
+
+.has-recommendations #Game-list {
+  width: 70%;
+  margin-right: auto;
+}
+
+.no-recommendations #Game-list {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #282c34;
+  text-align: center;
+  height: 80px;
+  
+}
+footer p{
+  color: white;
+}
+
